@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
     Makes use of help text in the user's locale if available.}
 
 
-  s.add_dependency "rails", "~> 3.0"
+  s.add_dependency "rails", ">= 3.0"
   s.add_dependency "jquery-rails"
   s.add_dependency "rdiscount"
   s.add_dependency "RedCloth"
-  s.add_dependency "thor",  "~>0.14.4"
-  s.add_development_dependency "bundler", "~> 1.0.0"
+  s.add_dependency "thor",  ">= 0.14.4"
+  s.add_development_dependency "bundler", ">= 1.0.0"
 
   s.rubyforge_project = "simple-tooltip"
 
